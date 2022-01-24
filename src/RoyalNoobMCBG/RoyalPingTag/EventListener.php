@@ -10,18 +10,27 @@ use pocketmine\event\entity\EntityDamageByEntityEvent;
 use RoyalNoobMCBG\RoyalPingTag\RoyalPingTag;
 
 class EventListener implements Listener {
-
+	
+	public $plugin;
+	
+	/** 
+	* @param RoyalPingTag $plugin 
+	*/
+	public function __construct(RoyalPingTag $plugin)
+	{
+		$this->plugin = $plugin;
+	}
     /**
     * @param PlayerJoinEvent $event
     */
 	public function onJoin(PlayerJoinEvent $event){
-        RoyalPingTag::getInstance()->updatePing();
+        $this->plugin->updatePing();
 	}
     
     /**
     * @param EntityDamageByEntityEvent $event
     */
 	public function onDamage(EntityDamageByEntityEvent $event){
-		RoyalPingTag::getInstance()->updatePing();
+		$this->plugin->updatePing();
 	}
 }
