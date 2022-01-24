@@ -14,6 +14,31 @@
 
 <br>
 
+## Commands
+| **Commands** | **Description** |
+| --- | --- |
+| **/royalpingtag** | **Ping Tag Commands** |
+
+<br>
+
+## Permissions
+- use permission `royalpingtag.command` to use commands /royalpingtag
+
+<br>
+
+## For Developer
+- You can access to RoyalPingTag by using RoyalPingTag::getInstance()
+- Update ping tag usage:
+```php
+RoyalPingTag::getInstance()->updatePing();
+```
+- Set custom format usage:
+```php
+RoyalPingTag::getInstance()->setCustomFormat("Format Ping");
+```
+  
+<br>
+
 ## Config
 ```
 ---
