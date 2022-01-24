@@ -22,8 +22,6 @@ With easy-to-understand configuration and easy-to-use commands.
 
 # Commands & Permissions
 
-**Note:** KygekWhitelistKick uses commands by default. To switch to form mode, set `mode` in `config.yml` to `form`. After switching, execute `/whitelistkick` to open KygekWhitelistKick form.
-
 | Command | Description | Permission | Default |
 | --- | --- | --- | --- |
 | `/royalpingtag help` | Display royalpingtag subcommands | `royalpingtag.command` | op |
