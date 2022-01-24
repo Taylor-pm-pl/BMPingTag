@@ -9,6 +9,7 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
 use pocketmine\command\CommandSender;
 use pocketmine\utils\TextFormat;
+use NoobMCBG\RoyalPingTag\EventListener;
 use NoobMCBG\RoyalPingTag\commands\RoyalPingTagCommands;
 use NoobMCBG\RoyalPingTag\task\UpdatePingTask;
 use NoobMCBG\RoyalPingTag\task\CheckUpdateTask;
