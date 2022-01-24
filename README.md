@@ -1,59 +1,41 @@
-<div align="center">
-<h1>RoyalPingTag | v1.0.0<h1>
-</div>
-<p align="center">
-<a href="https://poggit.pmmp.io/p/RoyalPingTag"><img src="https://poggit.pmmp.io/shield.state/RoyalPingTag"></a>
-<br>
-✔️ show player's ping number under their name ✔️
-</p>
+# RoyalPingTag
 
-<br>
+<a href="https://poggit.pmmp.io/p/RoyalPingTag"><img src="https://poggit.pmmp.io/shield.dl.total/RoyalPingTag"></a>
+[![Discord](https://img.shields.io/discord/869130615851745281.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/YYquESwF)
 
-## Features
-- show player's ping number under their name
+**NOTICE:** This plugin branch is for PocketMine-MP 4.
 
-<br>
+This plugin shows your ping on your nametag.
+With easy-to-understand configuration and easy-to-use commands.
 
-## Commands
-| **Commands** | **Description** |
-| --- | --- |
-| **/royalpingtag** | **Ping Tag Commands** |
+# Features
 
-<br>
+- shows your ping on your nametag.
+- Easy setup.
 
-## Permissions
-- use permission `royalpingtag.command` to use commands /royalpingtag
+# How to Install
 
-<br>
+1. Download the latest version
+2. Place the `RoyalPingTag.phar` file into the `plugins` folder.
+3. Restart the server.
+4. Done!
 
-## For Developer
-- You can access to RoyalPingTag by using RoyalPingTag::getInstance()
-- Update ping tag usage:
-```php
-RoyalPingTag::getInstance()->updatePing();
-```
-- Set custom format usage:
-```php
-RoyalPingTag::getInstance()->setCustomFormat("Format Ping");
-```
-  
-<br>
+# Commands & Permissions
 
-## Config
-```
----
-# RoyalPingTag config
-# Time update ping
-update-ping-interval: 1 # 1 seconds
+**Note:** KygekWhitelistKick uses commands by default. To switch to form mode, set `mode` in `config.yml` to `form`. After switching, execute `/whitelistkick` to open KygekWhitelistKick form.
 
-# Format ping tags
-tag-format: "§a{ping} ms"
-...
-```
+| Command | Description | Permission | Default |
+| --- | --- | --- | --- |
+| `/royalpingtag help` | Display royalpingtag subcommands | `royalpingtag.command` | op |
+| `/royalpingtag setcustomformat` | Edit the format of ping | `royalpingtag.command` | op |
 
-<br>
+Command alias: `/rpt, /rpingtag, /pingtag`
 
-## Install
-- Step 1: Click the "Direct Download" button to download the plugin
-- Step 2: move the file "RoyalPingTag.phar" into the file "plugins"
-- Step 3: Restart server for plugins to work
+# Upcoming Features
+
+- Each player will have their own ping format.
+
+# Additional Notes
+
+- If you found bugs or want to give suggestions, please visit <a href="https://github.com/RoyalTeamDeveloper/RoyalPingTag/issues">here</a> or join our Discord server.
+- We accept all contributions! If you want to contribute, please make a pull request in <a href="https://github.com/RoyalTeamDeveloper/RoyalPingTag/pulls">here</a>.
