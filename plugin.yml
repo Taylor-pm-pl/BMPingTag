@@ -1,0 +1,11 @@
+name: RoyalPingTag
+main: NoobMCBG\RoyalPingTag\RoyalPingTag
+api: 4.0.0
+version: 1.0.0
+author: RoyalNoobMCBG
+description: show player's ping number under their name
+
+permissions:
+  royalpingtag.command:
+    description: Permission use command /royalpingtag
+    default: op

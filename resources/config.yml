@@ -1,0 +1,8 @@
+---
+# RoyalPingTag config
+# Time update ping
+update-ping-interval: 1 # 1 seconds
+
+# Format ping tags
+tag-format: "§a{ping} ms"
+...
