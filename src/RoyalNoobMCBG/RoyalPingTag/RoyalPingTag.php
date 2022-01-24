@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace NoobMCBG\RoyalPingTag;
+namespace RoyalNoobMCBG\RoyalPingTag;
 
 use pocketmine\player\Player;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
 use pocketmine\command\CommandSender;
 use pocketmine\utils\TextFormat;
-use NoobMCBG\RoyalPingTag\commands\RoyalPingTagCommands;
-use NoobMCBG\RoyalPingTag\task\UpdatePingTask;
-use NoobMCBG\RoyalPingTag\task\CheckUpdateTask;
+use RoyalNoobMCBG\RoyalPingTag\commands\RoyalPingTagCommands;
+use RoyalNoobMCBG\RoyalPingTag\task\UpdatePingTask;
+use RoyalNoobMCBG\RoyalPingTag\task\CheckUpdateTask;
 
 class RoyalPingTag extends PluginBase implements Listener {
 
