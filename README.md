@@ -2,7 +2,7 @@
 <h1>RoyalPingTag | v1.0.0<h1>
 </div>
 <p align="center">
-<a href="https://poggit.pmmp.io/p/KillDeathSound"><img src="https://poggit.pmmp.io/shield.state/RoyalPingTag"></a>
+<a href="https://poggit.pmmp.io/p/RoyalPingTag"><img src="https://poggit.pmmp.io/shield.state/RoyalPingTag"></a>
 <br>
 ✔️ show player's ping number under their name ✔️
 </p>
