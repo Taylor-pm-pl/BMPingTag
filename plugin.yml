@@ -1,8 +1,8 @@
-name: RoyalPingTag
-main: RoyalNoobMCBG\RoyalPingTag\RoyalPingTag
+name: BMPingTag
+main: NoobMCBG\RoyalPingTag\RoyalPingTag
 api: 4.0.0
 version: 1.0.0
-author: RoyalNoobMCBG
+author: NoobMCBG
 description: show player's ping number under their name
 
 permissions:
