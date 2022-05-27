@@ -5,4 +5,5 @@ branches:
 projects:
   BMPingTag:
     path: ""
+    icon: icon.png
 ...
