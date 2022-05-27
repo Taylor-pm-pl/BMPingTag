@@ -1,8 +1,8 @@
---- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/RoyalTeamDeveloper/RoyalPingTag
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/BlockMagicDev/PMPingTag
 build-by-default: true
 branches:
 - main
 projects:
-  RoyalPingTag:
+  PMPingTag:
     path: ""
 ...
