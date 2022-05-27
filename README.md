@@ -27,7 +27,7 @@ With easy-to-understand configuration and easy-to-use commands.
 | `/pmpingtag help` | Display pmpingtag subcommands | `pmpingtag.command` | op |
 | `/pmpingtag setcustomformat` | Edit the format of ping | `pmpingtag.command` | op |
 
-Command alias: `/rpt, /rpingtag, /pingtag`
+Command alias: `/pt, /pingtag`
 
 # Upcoming Features
 
@@ -35,5 +35,5 @@ Command alias: `/rpt, /rpingtag, /pingtag`
 
 # Additional Notes
 
-- If you found bugs or want to give suggestions, please visit <a href="https://github.com/RoyalTeamDeveloper/RoyalPingTag/issues">here</a> or join our Discord server.
-- We accept all contributions! If you want to contribute, please make a pull request in <a href="https://github.com/RoyalTeamDeveloper/RoyalPingTag/pulls">here</a>.
+- If you found bugs or want to give suggestions, please visit <a href="https://github.com/BlockMagicDev/BMPingTag/issues">here</a> or join our Discord server.
+- We accept all contributions! If you want to contribute, please make a pull request in <a href="https://github.com/BlockMagicDev/BMPingTag/pulls">here</a>.
