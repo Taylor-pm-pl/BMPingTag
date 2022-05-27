@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ef99e84e1d88a0d8e517c1764d77b66a",
+    "content-hash": "b1c0c1036f6813899e942fd2eed45877",
     "packages": [
         {
             "name": "adhocore/json-comment",
@@ -5410,7 +5410,32 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8.0"
+        "php": "^8.0",
+        "php-64bit": "*",
+        "ext-chunkutils2": "^0.3.1",
+        "ext-crypto": "^0.3.1",
+        "ext-ctype": "*",
+        "ext-curl": "*",
+        "ext-date": "*",
+        "ext-gmp": "*",
+        "ext-hash": "*",
+        "ext-igbinary": "^3.0.1",
+        "ext-json": "*",
+        "ext-leveldb": "^0.2.1 || ^0.3.0",
+        "ext-mbstring": "*",
+        "ext-morton": "^0.1.0",
+        "ext-openssl": "*",
+        "ext-pcre": "*",
+        "ext-phar": "*",
+        "ext-pthreads": "^4.0",
+        "ext-reflection": "*",
+        "ext-simplexml": "*",
+        "ext-sockets": "*",
+        "ext-spl": "*",
+        "ext-yaml": ">=2.0.0",
+        "ext-zip": "*",
+        "ext-zlib": ">=1.2.11",
+        "composer-runtime-api": "^2.0"
     },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"
