@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace RoyalNoobMCBG\RoyalPingTag\task;
+namespace BlockMagicDev\BMPingTag\task;
 
+use BlockMagicDev\BMPingTag\BMPingTag;
 use pocketmine\scheduler\Task;
-use RoyalNoobMCBG\RoyalPingTag\RoyalPingTag;
 
 class UpdatePingTask extends Task {
+	
+	protected BMPingTag $plugin;
 
-	private RoyalPingTag $plugin;
-
-	public function __construct(RoyalPingTag $plugin){
+	public function __construct(BMPingTag $plugin) {
 		$this->plugin = $plugin;
 	}
 

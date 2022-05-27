@@ -1,0 +1,61 @@
+{
+    "name": "blockmagic/bmpingtag",
+    "description": "This plugin shows your ping on your nametag. With easy-to-understand configuration and easy-to-use commands.",
+    "type": "project",
+    "keywords": [
+      "bmpingtag",
+      "pocketmine-mp"
+    ],
+    "require": {
+        "phpstan/extension-installer": "1.1.0",
+      	"pocketmine/pocketmine-mp": "4.2.10",
+      	"php": "^8.0",
+      	"pocketmine/bedrock-data": "~1.6.0+bedrock-1.18.10",
+      	"pocketmine/bedrock-protocol": "~8.0.2+bedrock-1.18.10",
+      	"pocketmine/binaryutils": "^0.2.1",
+      	"pocketmine/callback-validator": "^1.0.2",
+      	"pocketmine/classloader": "^0.2.0",
+      	"pocketmine/color": "^0.2.0",
+      	"pocketmine/errorhandler": "^0.6.0",
+      	"pocketmine/log": "^0.4.0",
+      	"pocketmine/log-pthreads": "^0.4.0",
+      	"pocketmine/math": "^0.4.0",
+      	"pocketmine/nbt": "^0.3.2",
+      	"pocketmine/raklib": "^0.14.2",
+      	"pocketmine/raklib-ipc": "^0.1.0",
+      	"pocketmine/snooze": "^0.3.0",
+      	"friendsofphp/php-cs-fixer": "^3.8"
+    },
+    "license": "GPL-3.0",
+    "readme": "../README.md",
+    "homepage": "https://github.com/BlockMagicDev",
+    "autoload": {
+        "psr-4": {
+            "Blockmagic\\Bmpingtag\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "NoobMCBG",
+            "homepage": "https://github.com/NoobMCBG",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+      "email": "blockmagicdev@gmail.com",
+      "issues": "https://github.com/BlockMagicDev/BMPingTag/issues",
+      "wiki": "https://github.com/BlockMagicDev/BMPingTag/wiki",
+      "source": "https://github.com/BlockMagicDev/BMPingTag"
+    },
+    "funding": [
+      {
+         "type": "patreon",
+         "url": "https://www.patreon.com/BlockMagic"
+      }
+    ],
+    "config": {
+       "allow-plugins": {
+          "phpstan/extension-installer": true
+       }
+    }
+}

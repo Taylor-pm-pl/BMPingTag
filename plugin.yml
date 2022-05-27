@@ -1,11 +1,11 @@
 name: BMPingTag
-main: NoobMCBG\RoyalPingTag\RoyalPingTag
+main: BlockMagicDev\BMPingTag\BMPingTag
 api: 4.0.0
 version: 1.0.0
-author: NoobMCBG
+author: BlockMagicDev
 description: show player's ping number under their name
 
 permissions:
-  royalpingtag.command:
-    description: Permission use command /royalpingtag
+  bmpingtag.command:
+    description: Permission use command /bmpingtag
     default: op
