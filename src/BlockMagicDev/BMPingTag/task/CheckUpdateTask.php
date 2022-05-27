@@ -12,7 +12,6 @@ use function version_compare;
 use function vsprintf;
 
 class CheckUpdateTask extends AsyncTask {
-
 	protected const POGGIT_RELEASES_URL = "https://poggit.pmmp.io/releases.min.json?name=";
 
 	public function __construct(private string $pluginName, private string $pluginVersion) {

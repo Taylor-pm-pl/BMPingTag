@@ -15,7 +15,6 @@ use function str_replace;
 use function strval;
 
 class BMPingTag extends PluginBase implements Listener {
-	
 	public static $instance;
 
 	public static function getInstance() : self {

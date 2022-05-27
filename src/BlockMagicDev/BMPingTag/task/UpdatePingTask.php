@@ -8,7 +8,6 @@ use BlockMagicDev\BMPingTag\BMPingTag;
 use pocketmine\scheduler\Task;
 
 class UpdatePingTask extends Task {
-	
 	protected BMPingTag $plugin;
 
 	public function __construct(BMPingTag $plugin) {

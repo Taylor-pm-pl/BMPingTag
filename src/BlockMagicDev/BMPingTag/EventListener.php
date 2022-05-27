@@ -9,7 +9,6 @@ use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerJoinEvent;
 
 class EventListener implements Listener {
-	
 	protected BMPingTag $plugin;
 
 	public function __construct(BMPingTag $plugin) {
