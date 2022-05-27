@@ -6,9 +6,9 @@ namespace BlockMagicDev\BMPingTag;
 
 use BlockMagicDev\BMPingTag\commands\BMPingTagCommands;
 use BlockMagicDev\BMPingTag\task\UpdatePingTask;
+use BlockMagicDev\BMPingTag\utils\SingletonTrait;
 use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
-use pocketmine\utils\SingletonTrait;
 use pocketmine\utils\TextFormat;
 use function str_replace;
 use function strval;
