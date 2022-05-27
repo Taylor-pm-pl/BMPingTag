@@ -26,6 +26,12 @@
       	"pocketmine/snooze": "^0.3.0",
       	"friendsofphp/php-cs-fixer": "^3.8"
     },
+    "require-dev": {
+      "phpstan/phpstan": "1.5.6",
+      "phpstan/phpstan-phpunit": "^1.1.0",
+      "phpstan/phpstan-strict-rules": "^1.0.0",
+      "phpunit/phpunit": "^9.2"
+    },
     "license": "GPL-3.0",
     "readme": "../README.md",
     "homepage": "https://github.com/BlockMagicDev",

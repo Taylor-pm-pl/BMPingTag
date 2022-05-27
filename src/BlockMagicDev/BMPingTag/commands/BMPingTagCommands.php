@@ -20,10 +20,10 @@ class BMPingTagCommands extends Command implements PluginOwned {
 		$this->setPermission("bmpingtag.command");
 	}
 
-	public function execute(CommandSender $sender, string $label, array $args) {
+	public function execute(CommandSender $sender, string $label, array $args) : void {
 		if (!isset($args[0])) {
 			$sender->sendMessage("§cUsage:§7 /bmpingtag help");
-			return true;
+			return;
 		}
 		switch ($args[0]) {
 			case "help":
@@ -39,7 +39,7 @@ class BMPingTagCommands extends Command implements PluginOwned {
 			case "format":
 				if (!isset($args[1])) {
 					$sender->sendMessage("§cUsage:§7 /bmpingtag setcustomformat <format>");
-					return true;
+					return;
 				} else {
 					array_shift($args);
 					$this->getOwningPlugin()->setCustomFormat(implode(" ", $args));

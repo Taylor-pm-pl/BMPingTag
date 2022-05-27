@@ -34,7 +34,7 @@ class BMPingTag extends PluginBase implements Listener {
 		$this->getServer()->getAsyncPool()->submitTask(new CheckUpdateTask($this->getDescription()->getName(), $this->getDescription()->getVersion()));
 	}
 
-	public function updatePing() {
+	public function updatePing() : void {
 		foreach ($this->getServer()->getOnlinePlayers() as $player) {
 			if (!$player instanceof Player) {
 				return true;
@@ -46,7 +46,7 @@ class BMPingTag extends PluginBase implements Listener {
 		}
 	}
 
-	public function setCustomFormat($args) {
+	public function setCustomFormat($args) : void {
 		$this->getConfig()->set("tag-format", $args);
 		$this->getConfig()->save();
 	}

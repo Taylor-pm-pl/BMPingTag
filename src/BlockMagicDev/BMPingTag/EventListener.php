@@ -15,12 +15,12 @@ class EventListener implements Listener {
 		$this->plugin = $plugin;
 	}
 
-	public function onJoin(PlayerJoinEvent $event) {
+	public function onJoin(PlayerJoinEvent $event) : void {
 		$this->plugin->updatePing();
 	}
 
 
-	public function onDamage(EntityDamageByEntityEvent $event) {
+	public function onDamage(EntityDamageByEntityEvent $event) : void {
 		$this->plugin->updatePing();
 	}
 }
