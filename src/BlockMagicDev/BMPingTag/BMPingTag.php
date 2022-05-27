@@ -8,15 +8,16 @@ use BlockMagicDev\BMPingTag\commands\BMPingTagCommands;
 use BlockMagicDev\BMPingTag\task\UpdatePingTask;
 use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
+use pocketmine\utils\SingletonTrait;
 use pocketmine\utils\TextFormat;
 use function str_replace;
 use function strval;
 
 class BMPingTag extends PluginBase implements Listener {
-	public static $instance = null;
+	use SingletonTrait;
 
-	public static function getInstance() : self|null {
-		return self::$instance;
+	public function onLoad() : void {
+		$this->setInstance($this);
 	}
 
 	public function onEnable() : void {
@@ -24,7 +25,6 @@ class BMPingTag extends PluginBase implements Listener {
 		$this->saveDefaultConfig();
 		$this->getServer()->getCommandMap()->register("RoyalPingTag", new BMPingTagCommands($this));
 		$this->getScheduler()->scheduleRepeatingTask(new UpdatePingTask($this), 20 * $this->getConfig()->get("update-ping-interval"));
-		self::$instance = $this;
 	}
 
 	public function updatePing() : bool {
@@ -35,6 +35,7 @@ class BMPingTag extends PluginBase implements Listener {
 				strval($this->getConfig()->get("tag-format"))));
 			return true;
 		}
+		return true;
 	}
 
 	public function setCustomFormat(string $args) : void {
