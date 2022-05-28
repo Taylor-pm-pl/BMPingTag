@@ -15,9 +15,9 @@ use function strval;
 
 class BMPingTag extends PluginBase implements Listener {
 	use SingletonTrait;
-	
+
 	public function onEnable() : void {
-		$this->setInstance($this);
+		self::setInstance($this);
 		$this->getServer()->getPluginManager()->registerEvents(new EventListener($this), $this);
 		$this->saveDefaultConfig();
 		$this->getServer()->getCommandMap()->register("RoyalPingTag", new BMPingTagCommands($this));
