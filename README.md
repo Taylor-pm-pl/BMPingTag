@@ -22,3 +22,9 @@ Command alias: `/pt, /pingtag`
 # Upcoming Features
 
 - Each player will have their own ping format.
+
+## All Contributors
+<a href="https://github.com/BlockMagicDev/BMPingTag/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=BlockMagicDev/BMPingTag" />
+</a>
+
