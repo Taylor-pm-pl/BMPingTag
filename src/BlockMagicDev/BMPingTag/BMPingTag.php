@@ -20,7 +20,7 @@ class BMPingTag extends PluginBase implements Listener {
 		self::setInstance($this);
 		$this->getServer()->getPluginManager()->registerEvents(new EventListener($this), $this);
 		$this->saveDefaultConfig();
-		$this->getServer()->getCommandMap()->register("RoyalPingTag", new BMPingTagCommands($this));
+		$this->getServer()->getCommandMap()->register("pmpingtag", new BMPingTagCommands($this));
 		$this->getScheduler()->scheduleRepeatingTask(new UpdatePingTask($this), 20 * $this->getConfig()->get("update-ping-interval"));
 	}
 
