@@ -31,7 +31,7 @@ class BMPingTagCommands extends Command implements PluginOwned {
 				$sender->sendMessage("§a> BMPingTag Usage <");
 				$sender->sendMessage("§a> /bmpingtag help §7- Display RoyalPingTag commands");
 				$sender->sendMessage("§a> /bmpingtag setcustomformat §7- Set custom format tag");
-			break;
+				break;
 			case "setcustomformat":
 			case "setformat":
 			case "scfm":
@@ -45,10 +45,10 @@ class BMPingTagCommands extends Command implements PluginOwned {
 					$this->getOwningPlugin()->setCustomFormat(implode(" ", $args));
 					$sender->sendMessage("§a> Ping format has been updated");
 				}
-			break;
+				break;
 			default:
 				$sender->sendMessage("§cUsage:§7 /bmpingtag help");
-			break;
+				break;
 		}
 	}
 
