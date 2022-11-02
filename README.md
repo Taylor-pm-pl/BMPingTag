@@ -27,4 +27,3 @@ Command alias: `/pt, /pingtag`
 <a href="https://github.com/VCraftGames/BMPingTag/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=VCraftGames/BMPingTag" />
 </a>
-
